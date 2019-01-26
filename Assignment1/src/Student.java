@@ -29,19 +29,19 @@ class Student
         this.eMail= eMail;
         this.contactNo= contactNo;
     }
-    Display()
+    void display()
     {
         System.out.println("First name: "+this.firstName);
         System.out.print("Last Name: "+this.lastName);
-        this.addr.Display;
+        this.addr.display;
         for(int i=0;i<qual.length;i++)
         {
-           qual[i].Display; 
+           qual[i].display; 
         }
         System.out.print("Skills: "+skills[i]);
         for(int i=0;i<project.length;i++)
         {
-            project[i].Display;
+            project[i].display;
         }
         System.out.print("E-mail: "+this.eMail);
         System.out.print("Contact No: "+this.contactNo);
