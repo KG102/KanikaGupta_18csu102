@@ -1,4 +1,3 @@
-import java.util.*;
 class Address
 {
 	String line1;
