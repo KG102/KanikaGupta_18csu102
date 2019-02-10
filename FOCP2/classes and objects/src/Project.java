@@ -1,8 +1,8 @@
 class Project
 {
 	String name;
-	String startDate;
-    String endDate;
+	Date startDate;
+    Date endDate;
     String role;
     String[]responsibilities;
     Project(String name,String startDate,String endDate,String role,String responsibilities[])
